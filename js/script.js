@@ -5,6 +5,10 @@ createApp({
         return{
             nome: "Utente",
             residenza: "Italia",
+            myClass: "sottolineare",
+            path: "",
+            imgName: "img/italia.png"
         }
     }
+
 }).mount("#app")

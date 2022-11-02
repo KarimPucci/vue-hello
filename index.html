@@ -13,10 +13,17 @@
 
    <div id="app">
         <h1>Ciao {{nome}}</h1>
-        <p>Paese di Residenza: {{residenza}}</p>
+        <p :class="myClass">Paese di Residenza: {{residenza}}</p>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Beatae ad cum adipisci pariatur ut deleniti molestiae debitis dolor, dicta labore eius consectetur expedita quos iure esse tenetur odio quam modi.</p>
 
         <input type="text" v-model="nome">
         <input type="text" v-model="residenza">
+
+        <button @click="myClass = 'sottolinea'">Sottolinea Testo</button>
+        <button @click="myClass =''">Originale</button>
+        <button @click>Immagine</button>
+        <input type="text" v-model="path">
+        <img :src="path" alt="">
    </div>
     
     <script src="js/script.js"></script>

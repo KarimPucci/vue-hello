@@ -1,0 +1,19 @@
+body{
+    text-align: center;
+}
+
+button{
+    margin: 10px;
+}
+
+.sottolinea{
+    text-decoration: underline 2px solid red;
+}
+
+img{
+    width: 250px;
+    height: 200px;
+    display: flex;
+    position: relative;
+    left: 40%;
+}
