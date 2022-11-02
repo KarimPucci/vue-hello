@@ -10,7 +10,14 @@
     <title>Vue Hello</title>
 </head>
 <body>
-   <h1></h1>
+
+   <div id="app">
+        <h1>Ciao {{nome}}</h1>
+        <p>Paese di Residenza: {{residenza}}</p>
+
+        <input type="text" v-model="nome">
+        <input type="text" v-model="residenza">
+   </div>
     
     <script src="js/script.js"></script>
 </body>
