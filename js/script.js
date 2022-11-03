@@ -7,7 +7,13 @@ createApp({
             residenza: "Italia",
             myClass: "sottolineare",
             path: "",
-            imgName: "img/italia.png"
+            imgName: "img/italia.png",
+            imgNameTwo: "img/marocco.png"
+        }
+    },
+    methods:{
+        changeImg(){
+            this.path = this.imgName
         }
     }
 

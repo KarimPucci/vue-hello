@@ -21,7 +21,7 @@
 
         <button @click="myClass = 'sottolinea'">Sottolinea Testo</button>
         <button @click="myClass =''">Originale</button>
-        <button @click>Immagine</button>
+        <button @click="changeImg()">Cambia Immagine</button>
         <input type="text" v-model="path">
         <img :src="path" alt="">
    </div>
